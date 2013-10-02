@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+	<name>ExternalAnnotationTypeSystem</name>
+	<description/>
+	<version>1.0</version>
+	<vendor/>
+	<imports>
+		<import name="AbstractTypeSystem"/>
+	</imports>
+	<types>
+		<typeDescription>
+			<name>edu.cmu.lti.type.DbpediaAnnotation</name>
+			<description/>
+			<supertypeName>edu.cmu.lti.util.type.ComponentAnnotation</supertypeName>
+			<features>
+				<featureDescription>
+					<name>Uri</name>
+					<description/>
+					<rangeTypeName>uima.cas.String</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>similarityScore</name>
+					<description/>
+					<rangeTypeName>uima.cas.Double</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>resourceType</name>
+					<description/>
+					<rangeTypeName>uima.cas.StringList</rangeTypeName>
+				</featureDescription>
+			<featureDescription>
+          <name>abstract</name>
+          <description>Abstract on the wikipedia page of the returned entity</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+		</typeDescription>
+	</types>
+</typeSystemDescription>
