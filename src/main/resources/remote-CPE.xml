@@ -8,9 +8,9 @@
 		</collectionIterator>
 	</collectionReader>
 	<casProcessors casPoolSize="3" processingUnitThreadCount="1">
-		<casProcessor deployment="integrated" name="Dbpedia Spotlight AAE">
+		<casProcessor deployment="integrated" name="dbpedia client">
 			<descriptor>
-				<import location="spotlight-aae.xml" />
+				<import location="dbpedia-client.xml" />
 			</descriptor>
 			<deploymentParameters />
 			<errorHandling>

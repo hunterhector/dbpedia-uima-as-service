@@ -7,7 +7,7 @@
   <deployment protocol="jms" provider="activemq">
     <casPool numberOfCASes="1" initialFsHeapSize="2000000"/>
     <service>
-      <inputQueue endpoint="myQueueName" brokerURL="${defaultBrokerURL}" prefetch="0"/>
+      <inputQueue endpoint="dbpediaQueue" brokerURL="${defaultBrokerURL}" prefetch="0"/>
       <topDescriptor>
 <import name="spotlight-aae"/>
       </topDescriptor>
